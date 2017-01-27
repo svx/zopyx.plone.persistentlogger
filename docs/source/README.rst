@@ -28,8 +28,9 @@ message.  The module does not perform any checking on the given message
 ``level``. Sorting on ``level`` is accomplished only on the lexicographical
 ordering of the ``level`` values.
 
-The logs can be view through-the-web through the URL http://host/path/to/object/@@persistent-log .
-The logs can be clear using the URL http://host/path/to/object/@@persistent-log-clear.
+You can view the logs *through-the-web* through the URL http://host/path/to/object/@@persistent-log.
+You can clear the logs using the URL http://host/path/to/object/@@persistent-log-clear.
+
 Both URLs require the permission of modify the related object.
 
 All logs can be searched, sorted and filtered individually based on the Datatables.net
